@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    font-family: Montserrat, sans-serif;
+}
+
+html, body{
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+/** Letra inicial grande**/
+.letra_inicial{
+    font-size: 4.8rem;
+    font-style: italic;
+    color: #7371fc ;
+    transition: 190ms ease-in;
+    
+}
+
+.letra_inicial:hover
+{
+    color: #a594f9;
+    cursor: pointer;
+}
