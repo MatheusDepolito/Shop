@@ -1,8 +1,6 @@
 <svg width="250" height="100" xmlns="http://www.w3.org/2000/svg">
  <g>
-  <title>Layer 1</title>
-  <text fill="#000000" stroke-width="0" x="131.67973" y="194.18284" id="svg_2" font-size="24" font-family="'Libre Franklin'" text-anchor="start" xml:space="preserve" stroke="#000" transform="matrix(2.89312 0 0 3.19213 -558.796 -734.541)">SHOP SUEY</text>
-  <text transform="matrix(1 0 0 1 0 0)" fill="black" stroke="#000" stroke-width="0" x="61.42188" y="68" id="svg_5" font-size="50" font-family="'Libre Franklin'" text-anchor="start" xml:space="preserve">TEST</text>
+  <text transform="matrix(1 0 0 1 0 0)" fill="black" stroke="#000" stroke-width="0" x="61.42188" y="68" id="svg_5" font-size="50" font-family="'Libre Franklin'" text-anchor="start" xml:space="preserve">TESTE</text>
  </g>
 
 </svg>

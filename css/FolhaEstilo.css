@@ -320,36 +320,100 @@ html{
         opacity: 0.7;
 }
 
-#barra_catalago{
+#Catalago_roupas{
     width: 100%;
     height: auto;
     background-color: #ffffff;
     margin-top: 5vh;
 
     }
-    .barra_cat{
+    .catalago{
         width: 100%;
         height: auto;
         max-width: 120rem;
         margin: auto;
+        display: flex;
+        
+        justify-content: space-between;
         background-color: #ffffff;
     }
-    .barra{
-        width: 94%;
-        margin: auto;
-        height: 6rem;
-
-        background-color: rgb(255, 255, 255);
-        border-radius: 27px;
-        border: #bdbbc5 1px solid;
-
+    .fil{
+        width: 22%;
+        height: auto;
+        background: #d3b6b6;
+    }
+    .roupas{
+        width: 77%;
+        height: auto;
+        background-color: #ffffff;
+        display: flex;
+        flex-flow: wrap row;
+        justify-content: space-around;
         
+    }
+    .box_roupa{
+        width: 30%;
+        height: 35rem;
+        margin-top: 1rem;
+
+        background-color: #ffffff;
+    }
+    .roupa_img{
+        height: 67%;
+        background-color: rgb(255, 255, 255);
+    }
+    .info{
+        background-color: #ffffff;
+        display: flex;
+        flex-flow: wrap row;
+        margin-top: 2.5rem;
+    }
+    .info h1{
+        background-color: #ffffff;
+        color:#4a47fd ;
+        font-size: 2.3rem;
+        width: 100%;
+        text-align: center;
+    }
+    .info p{
+        background-color: #ffffff;
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin: auto;
+        margin-top: 0.6rem;
+    }
+    .addcart{
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+    .addcart a { 
+        text-decoration: none;
+        font-size: 1.3rem;
+        color: #71808d;
+        
+    }
+    .cart{
+        color: #4a47fd;
+        font-size: 2rem;
     }
 
 
-
-
+    @media(max-width:320px){
+        .roupas{
+            flex-direction: column;
+        }
+        .fil{
+            width: 34%;
+        }
+        .box_roupa{
+            width: 80%;
+            margin: auto;
+            margin-top: 1rem;
+        }
+    }
 #footer{
     height: 300px;
     width: 100%;
+    background-color: rgb(255, 255, 255);
 }
